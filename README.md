@@ -5,7 +5,7 @@
 ### Set Up Instructions
 1) create a python 3 virtual environment on terminal: ```python3 -m venv envName```
 2) activate virtual environment ```. envName/bin/activate```
-3) clone this repo
+3) clone this repo and cd into it
 4) install the requirements: ```pip install -r requirements.txt```
 
 
