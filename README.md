@@ -1,6 +1,6 @@
 # INTERN TAKE HOME ASSIGNMENT
 
-**Note: python 3 is used**
+**Note: python 3 is used. All output can be seen in output.txt at the root level**
 
 ### Set Up Instructions
 1) create a python 3 virtual environment on terminal: ```python3 -m venv envName```
