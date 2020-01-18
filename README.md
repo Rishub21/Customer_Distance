@@ -14,7 +14,7 @@
 
 
 ### Run Tests
-1) cd to root directory and issue the following command ```python -m pytest```
+1) cd to **root** directory and issue the following command ```python -m pytest```
 
 ### Notes
 The reading file function is a seperate function in calculate.py . I was considering making this into a seperate file, but given the specs of the project it seemed a little unnecessary. Ultimately that was a design decision I had to make. 
