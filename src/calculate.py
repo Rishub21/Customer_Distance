@@ -39,6 +39,8 @@ def deg_to_radians(degree_coordinates):
     radian_coordinates = (map(math.radians, [degree_coordinates[0], degree_coordinates[1]]))
     return list(radian_coordinates)
 
+# I considered making another file for this reading, but it seemed a little  unneccessary given the specs of this project
+# I understand it is a different conern so I've placed it in this seperate function 
 def read_customer_file(customer_file):
     json_list = []
     with open (customer_file) as customer_json:
