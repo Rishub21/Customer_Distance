@@ -4,7 +4,7 @@ import math
 
 OFFICE_COORDINATES = [37.788802,-122.4025067] #degrees
 THRESHOLD = 100 # kilometers
-EARTH_RADIUS = 6371
+EARTH_RADIUS = 6371 # kilometers
 
 # gets list of closeby customers
 def get_closeby_customer_list(customer_list):
