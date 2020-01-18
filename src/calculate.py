@@ -27,7 +27,7 @@ def distance_between(customer_coordinates, office_coordinates): # uses spherical
     office_lat, office_long = office_coordinates[0], office_coordinates[1]
 
     part_one = (math.sin(customer_lat) * math.sin(office_lat))
-    part_two = (math.cos(customer_lat) * math.cos(office_lat)) * math.cos(office_long - customer_long)
+    part_two = (math.cos(customer_lat) * math.cos(office_lat)) * math.cos(abs(office_long - customer_long))
 
     angle = math.acos(round(part_one + part_two,7)) # rounding to 7th place allows for inconsistency in floating point
 
@@ -40,7 +40,7 @@ def deg_to_radians(degree_coordinates):
     return list(radian_coordinates)
 
 # I considered making another file for this reading, but it seemed a little  unneccessary given the specs of this project
-# I understand it is a different conern so I've placed it in this seperate function 
+# I understand it is a different conern so I've placed it in this seperate function
 def read_customer_file(customer_file):
     json_list = []
     with open (customer_file) as customer_json:
