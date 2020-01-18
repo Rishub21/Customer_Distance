@@ -1,0 +1,17 @@
+CUSTOMERS WITHIN 100 KILOMETERS OF OFFICE 
+ Customer:   Ian Kehoe ID:  4
+ Customer:   Nora Dempsey ID:  5
+ Customer:   Theresa Enright ID:  6
+ Customer:   Eoin Ahearn ID:  8
+ Customer:   Richard Finnegan ID:  11
+ Customer:   Christina McArdle ID:  12
+ Customer:   Olive Ahearn ID:  13
+ Customer:   Michael Ahearn ID:  15
+ Customer:   Patricia Cahill ID:  17
+ Customer:   Eoin Gallagher ID:  23
+ Customer:   Rose Enright ID:  24
+ Customer:   Stephen McArdle ID:  26
+ Customer:   Oliver Ahearn ID:  29
+ Customer:   Nick Enright ID:  30
+ Customer:   Alan Behan ID:  31
+ Customer:   Lisa Ahearn ID:  39
